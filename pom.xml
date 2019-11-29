@@ -23,14 +23,51 @@
 		</dependency>
 	</dependencies>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>fvarrui.maven</groupId>
+				<artifactId>javapackager</artifactId>
+				<version>0.8.4</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>package</goal>
+						</goals>
+						<configuration>
+							<name>AI2MergerTool</name>
+							<description>Combina varios proyectos App Inventor en un solo (trabajo colaborativo)</description>
+							<mainClass>${exec.mainClass}</mainClass>
+							<bundleJre>true</bundleJre>
+							<generateInstaller>true</generateInstaller>
+							<forceJreOptimization>true</forceJreOptimization>
+							<organizationName>fvarrui</organizationName>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
 	<repositories>
 		<repository>
-		    <id>localRepo</id>
-    		<url>https://github.com/fvarrui/AI2MergerTool/raw/master/localRepo</url>
-    		<releases>
-    			<enabled>true</enabled>
-    		</releases>
+			<id>localRepo</id>
+			<url>https://github.com/fvarrui/AI2MergerTool/raw/master/localRepo</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
 		</repository>
-	</repositories>	
+	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>javapackager-repo</id>
+			<url>https://github.com/fvarrui/JavaPackager/raw/master/releases</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</pluginRepository>
+	</pluginRepositories>
 
 </project>
