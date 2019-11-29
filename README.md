@@ -1,5 +1,5 @@
 # AI2MergerTool
-Combina varios proyectos App Inventor en un solo (trabajo colaborativo).
+AI2 Project Merger Tool Wrapper: combine two App Inventor projects into one.
 
-Este proyecto está basado en el siguiente [artículo](https://appinventor.mit.edu/explore/resources/ai2-project-merger).
+Read tihs [article](https://appinventor.mit.edu/explore/resources/ai2-project-merger) for more information.
 
