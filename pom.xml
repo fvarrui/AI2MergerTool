@@ -18,15 +18,18 @@
 	<dependencies>
 		<dependency>
 			<groupId>edu.mills.feeney.thesis.aimerger</groupId>
-			<artifactId>AI2MergerApp</artifactId>
-			<version>1.0.0</version>
+			<artifactId>AIMerger</artifactId>
+			<version>1.1</version>
 		</dependency>
 	</dependencies>
 
 	<repositories>
 		<repository>
 		    <id>localRepo</id>
-    		<url>https://github.com/fvarrui/AI2MergerTool/raw/master/releases</url>
+    		<url>https://github.com/fvarrui/AI2MergerTool/raw/master/localRepo</url>
+    		<releases>
+    			<enabled>true</enabled>
+    		</releases>
 		</repository>
 	</repositories>	
 
