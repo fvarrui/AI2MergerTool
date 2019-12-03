@@ -1,4 +1,4 @@
-# AI2 Project Merger Tool Wrapper
+# AI2 Project Merger Tool installer
 
 Wrapper for **AI2 Project Merger Tool**, which combine two App Inventor projects into one. This project facilitates the distribution and installation of this application.
 

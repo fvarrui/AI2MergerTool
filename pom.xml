@@ -37,7 +37,7 @@
 						</goals>
 						<configuration>
 							<name>AI2MergerTool</name>
-							<description>Combina varios proyectos App Inventor en un solo (trabajo colaborativo)</description>
+							<description>Combine two App Inventor projects into one</description>
 							<mainClass>${exec.mainClass}</mainClass>
 							<bundleJre>true</bundleJre>
 							<generateInstaller>true</generateInstaller>
